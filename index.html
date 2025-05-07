@@ -12,12 +12,12 @@
 
     <script defer src="script.js"></script>
     <link
-      rel="shortcut icon"
-      href="favicon_io (4) 2/favicon.ico"
-      type="image/x-icon"
+      rel="icon"
+      type="image/png"
+      href="favicon_io (4) 2/favicon-32x32.png"
     />
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
+    <script src="https://cdn.jsdelivr.net/npm/tsparticles@2/tsparticles.bundle.min.js"></script>
   </head>
   <body>
     <header>
@@ -44,31 +44,22 @@
     <section id="home" class="hero">
       <div class="hero-wrapper">
         <div class="hero-image">
-          <img src="IMG_6023.JPG" alt="Tosin's photo" class="profile-pic" />
+          <img src="IMG_8164.jpg" alt="Tosin's photo" class="profile-pic" />
         </div>
         <div class="intro">
-          <h1>
-            Hi, I’m <span class="highlight"> Itsekure Oluwatosin Omowumi</span>
-          </h1>
+          <h1>Hi, I’m <span class="highlight"> Itsekure Oluwatosin </span></h1>
           <p class="text-area">
             Frontend Developer | Web Designer | Creative Problem Solver |
             Graphic Designer
           </p>
-          <!-- <p>
-            I'm passionate about building seamless, user-friendly websites and
-            applications. Since 2022, I’ve been crafting engaging digital
-            experiences and love solving complex problems. Let's create
-            something amazing together!
-          </p> -->
+
           <a href="#projects" class="btn">See My Projects</a>
         </div>
       </div>
     </section>
 
     <section id="about" class="about">
-
-      
-      <h2>✨ About Me</h2>
+      <h2>About Me</h2>
       <p>
         Hey, I’m Itsekure Oluwatosin Omowumi but you can call me Tosin. I’m a
         passionate and purpose-driven software developer with a sharp focus on
@@ -309,23 +300,32 @@
           <i class="fab fa-github"></i>
         </a>
       </div>
-<h2>Contact Me</h2>
-<form id="contactForm" class="contact-form" action="https://formspree.io/f/xldbbvdd" method="POST">
-  <input type="text" name="name" placeholder="Your Name" required />
-  <input type="email" name="email" placeholder="Your Email" required />
-  <textarea name="message" placeholder="Your Message" required></textarea>
-  <button type="submit">Send</button>
-</form>
+      <h2>Contact Me</h2>
+      <form
+        id="contactForm"
+        class="contact-form"
+        action="https://formspree.io/f/xldbbvdd"
+        method="POST"
+      >
+        <input type="text" name="name" placeholder="Your Name" required />
+        <input type="email" name="email" placeholder="Your Email" required />
+        <textarea name="message" placeholder="Your Message" required></textarea>
+        <button type="submit">Send</button>
+      </form>
 
-<div id="successMessage" style="display:none;">Thank you! Your message has been sent.</div>
-<div id="errorMessage" style="display:none;">Oops! Something went wrong. Please try again.</div>
-
-      
+      <div id="successMessage" style="display: none">
+        Thank you! Your message has been sent.
+      </div>
+      <div id="errorMessage" style="display: none">
+        Oops! Something went wrong. Please try again.
+      </div>
     </section>
 
     <footer>
       <p>&copy; 2025 Itsekure Oluwatosin. All rights reserved.</p>
     </footer>
 
+    <!-- aminated background -->
+    <div id="particles-js"></div>
   </body>
 </html>
