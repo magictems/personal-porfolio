@@ -35,9 +35,9 @@ body {
 p{
   color:#000
 }
-section {
+/* section {
   padding: 2rem 1rem; 
-}
+} */
 
 h2 {
   text-align: center; 
@@ -299,6 +299,7 @@ section {
   padding: 3rem 2rem;
   max-width: 900px;
   margin: auto;
+  background-color: var(--background);
 }
 
 .skills-container {

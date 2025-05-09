@@ -50,7 +50,7 @@ document.getElementById("menu-toggle").addEventListener("click", () => {
 tsParticles.load("particles-js", {
   fullScreen: { enable: true },
   particles: {
-    number: { value: 80 },
+    number: { value: 200 },
     color: { value: "#6e4f3a" }, 
     links: {
       enable: true,
